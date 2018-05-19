@@ -12,6 +12,7 @@ end
 
 def find_the_cheese(strings)
     cheese_types = ["cheddar", "gouda", "camembert"]
-    strings.detect {|string| string=="cheddar" || string=="camembert" || string=="gouda"}
+    strings.detect {|string| string==cheese_types.any?
+    #"cheddar" || string=="camembert" || string=="gouda"}
     
 end
