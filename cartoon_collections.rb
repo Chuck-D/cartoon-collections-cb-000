@@ -3,12 +3,12 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(planeteer)
-  planeteer.collect {|calls| calls.capitalize+ "!"}
+  planeteer.collect {|calls| calls.capitalize + "!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
-end
+def long_planeteer_calls(calls)
+  calls.collect {|call| call.length>4}
+end 
 
 def find_the_cheese# code an argument here
   # the array below is here to help
