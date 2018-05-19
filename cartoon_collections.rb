@@ -12,5 +12,5 @@ end
 
 def find_the_cheese(strings)
     cheese_types = ["cheddar", "gouda", "camembert"]
-    strings.include?(cheese_types) {|string| return string}
+    strings.include?("cheddar") {|string| return string}
 end
